@@ -16,7 +16,7 @@ variable "location_map" {
     "pri"  = "UK South"
     "sec" = "UK West"
   }
-}
+} # usage:  location = var.location_map[pri]
 
 variable "set_password" {
   type = bool
