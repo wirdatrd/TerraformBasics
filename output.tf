@@ -4,6 +4,6 @@ output "primary_location" {
 }
 
 output "vnet_address_space" {
-    value = azurerm_virtual_network.myvnet.address_space
+    value = azurerm_virtual_network.hub_vnet.address_space
     description = "VNET Address Space"
 }
